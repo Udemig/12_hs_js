@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <!-- * Css Link -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- * Bs Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="layout">
+      <!-- Aside -->
+      <aside>
+        <!-- Logo -->
+        <figure>
+          <img src="./images/no-text-logo.png" alt="" />
+          <span>Spotify</span>
+        </figure>
+        <!-- Nav -->
+        <nav>
+          <a href="#">
+            <i class="bi bi-house"></i>
+            <span>Anasayfa</span>
+          </a>
+          <a href="#">
+            <i class="bi bi-search"></i>
+            <span>Arama</span>
+          </a>
+          <a href="#">
+            <i class="bi bi-collection"></i>
+            <span>Kütüphane</span>
+          </a>
+          <a href="#">
+            <i class="bi bi-music-note-list"></i>
+            <span>Çalma Listeleri</span>
+          </a>
+          <a href="#">
+            <i class="bi bi-heart"></i>
+            <span>Beğenilen Şarkılar</span>
+          </a>
+        </nav>
+      </aside>
+      <!-- Main -->
+      <main>
+        <!-- Header -->
+        <header>
+          <!-- Form -->
+          <form>
+            <input type="text" placeholder="müzik arayınız ..." />
+            <button type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+          <!-- Nav -->
+          <nav>
+            <span>Premium</span>
+            <span>Destek</span>
+            <span>Oturum Aç</span>
+          </nav>
+        </header>
+        <!-- Songs Area -->
+        <section>
+          <!-- title -->
+          <h2 id="title">Popüler Müzikler</h2>
+          <!-- list -->
+          <div class="list">
+            <!-- card -->
+            <!-- <div class="card">
+              <figure>
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+                  alt=""
+                />
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+          
+              <div class="card-info">
+                <h4>Rumors</h4>
+                <h4>NEFFEX</h4>
+              </div>
+            </div>
+          
+            <div class="card">
+              <figure>
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+                  alt=""
+                />
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+            
+              <div class="card-info">
+                <h4>Rumors</h4>
+                <h4>NEFFEX</h4>
+              </div>
+            </div>
+          
+            <div class="card">
+              <figure>
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+                  alt=""
+                />
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+            
+              <div class="card-info">
+                <h4>Rumors</h4>
+                <h4>NEFFEX</h4>
+              </div>
+            </div>
+         
+            <div class="card">
+              <figure>
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+                  alt=""
+                />
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+           
+              <div class="card-info">
+                <h4>Rumors</h4>
+                <h4>NEFFEX</h4>
+              </div>
+            </div>
+           
+            <div class="card">
+              <figure>
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+                  alt=""
+                />
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+           
+              <div class="card-info">
+                <h4>Rumors</h4>
+                <h4>NEFFEX</h4>
+              </div>
+            </div> -->
+          </div>
+        </section>
+      </main>
+    </div>
+    <!-- Play Music -->
+    <div class="player">
+      <!-- Şarkı Bilgi Kısmı -->
+      <div class="info">
+        <img
+          src="https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/05/69/ee/0569eee5-a6ba-9a2b-4d32-31f08796dc85/859721877015_cover.jpg/400x400cc.jpg"
+          alt=""
+        />
+        <div>
+          <h5>Best of Me</h5>
+          <p>Neffex</p>
+        </div>
+      </div>
+      <!-- Oynat Kısmı -->
+      <audio
+        src="https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/93/90/8d/93908d5c-9a9f-555a-0bf0-c72a019abd16/mzaf_17896668841705900093.plus.aac.ep.m4a"
+        controls
+      ></audio>
+      <!-- Icons -->
+      <div class="icons">
+        <i class="bi bi-music-note-list"></i>
+        <i class="bi bi-boombox-fill"></i>
+        <i class="bi bi-pc-display"></i>
+      </div>
+    </div>
+
+    <!-- * Js Bağlantı -->
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

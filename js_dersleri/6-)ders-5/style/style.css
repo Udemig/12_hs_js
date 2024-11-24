@@ -1,0 +1,122 @@
+/* title5.style.backgroundColor = "red";
+title5.style.padding = "20px 30px";
+title5.style.fontSize = "40px";
+title5.style.color = "white";
+title5.style.borderRadius = "30px"; */
+
+.still {
+  background-color: red;
+  padding: 20px 30px;
+  font-size: 40px;
+  color: white;
+  border-radius: 30px;
+}
+
+/* 2.adım */
+.paragraf {
+  background-color: chocolate;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.container {
+  background-color: antiquewhite;
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.container h1 {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  transition: all 1s;
+}
+.changeMod {
+  border: none;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  float: right;
+}
+
+.darkMode {
+  background-color: black;
+  color: white;
+  transition: all 1s;
+}
+
+.add-button {
+  border: none;
+  outline: none;
+  margin: 40px 10px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.delete-button {
+  border: none;
+  outline: none;
+  margin: 40px 10px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.wrapper {
+  width: 300px;
+  height: 500px;
+  background-color: chocolate;
+  border-radius: 20px;
+  overflow: auto;
+}
+.eleman {
+  color: white;
+  text-align: center;
+  background-color: blanchedalmond;
+  margin: 20px 0;
+  color: black;
+}
+
+form {
+  background-color: #859f3d;
+  padding: 20px 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+}
+form h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 33px;
+}
+form input {
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-indent: 12px;
+  box-shadow: 5px 5px 10px;
+}
+form button {
+  border: none;
+  outline: none;
+  width: 100px;
+  text-align: center;
+  margin: auto;
+  padding: 4px 8px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+form button:hover {
+  transform: scale(0.8);
+}
